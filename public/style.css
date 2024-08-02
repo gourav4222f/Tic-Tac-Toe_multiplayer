@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  #game-container {
+    text-align: center;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #timer {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+  }
+  
